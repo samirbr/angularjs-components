@@ -1,0 +1,47 @@
+.dropdown.combobox>ul.dropdown-menu>li.selected {
+    background-color: #25AAE1;
+    color: white;
+}
+
+.dropdown.combobox>ul.dropdown-menu>li.selected a {
+    color: white;
+}
+
+.dropdown.combobox>ul.dropdown-menu>li.selected a:focus,
+.dropdown.combobox>ul.dropdown-menu>li.selected a:hover {
+    color: #000000;
+}
+
+.dropdown.combobox>ul.dropdown-menu {
+    max-height: 112px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.dropdown.combobox>button {
+    border: 0;
+    background-color: transparent;
+    padding: 0;
+}
+
+.dropdown.combobox>button>input {
+    padding: 2px;
+    border: 0;
+}
+
+.dropdown.combobox .form-control {
+    overflow: hidden;
+    text-overflow: clip;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.dropdown.combobox .form-control[readonly] {
+    background-color: white;
+}
+
+.dropdown.combobox>button>input:focus {
+    outline: 0;
+    border: 0;
+}

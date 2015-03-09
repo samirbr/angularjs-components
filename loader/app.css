@@ -1,0 +1,22 @@
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.3);
+}
+
+.dg-spin {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1050;
+    padding: 5px 9px;
+    border: solid 1px #fefefe;
+    border-radius: 16px;
+    background-color: white;
+}
